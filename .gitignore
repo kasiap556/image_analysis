@@ -1,0 +1,58 @@
+# Pliki systemowe
+.DS_Store
+Thumbs.db
+
+# Środowisko wirtualne
+venv/
+env/
+ENV/
+*.egg-info/
+
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+
+# Jupyter Notebook
+.ipynb_checkpoints/
+
+# Logi i pliki tymczasowe
+*.log
+*.tmp
+*.bak
+
+# Pliki konfiguracyjne edytora
+.vscode/
+.idea/
+
+# Pliki danych lub modeli
+*.h5
+*.hdf5
+*.ckpt
+*.pb
+*.tflite
+*.npy
+*.npz
+
+# Pliki generowane przez TensorFlow
+checkpoint
+events.out.tfevents.*
+
+# Pliki z testami/debugiem
+*.swp
+*.swo
+
+# Zrzuty ekranu lub obrazy pomocnicze
+*.png
+*.jpg
+*.jpeg
+*.gif
+
+# Dane uczące (opcjonalnie, jeśli nie chcesz ich commitować)
+dataset/
+data/
+
+# Modele (jeśli generowane)
+models/
+saved_model/
